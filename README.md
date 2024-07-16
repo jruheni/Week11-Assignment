@@ -1,10 +1,10 @@
 # Week 11 Assignment
 ## Findings
-After comparing three models, one where 30% of the data was used for testing, another where 50% of the data was ued for testing, and the last one where 70% was used for testing; I was able to conclude that, the higher the percentage of data dedicated to testing, the lower the accuracty of the model.
+After comparing three models, one where 30% of the data was used for testing, another where 50% of the data was ued for testing, and the last one where 70% was used for testing; I was able to conclude that, the higher the percentage of data dedicated to testing, the lower the accuracy of the model.
 
-This is evident in the accuracy percentage calculations, which was derrived through:
+This is evident in the accuracy percentage calculations, which were derrived through:
   ```bash
-  knn.score(X=X_test, y=y_test)
+  knn.score(X=X_test, y=y_test) * 100
   ```
 With that, we got the following scores for all three categories
 ```plaintext
